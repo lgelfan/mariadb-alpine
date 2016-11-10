@@ -16,8 +16,7 @@ Image is based on the [gliderlabs/alpine](https://registry.hub.docker.com/u/glid
 docker run [docker-options] k0st/alpine-mariadb 
 ```
 
-Note that MySQL root will be randomly generated (using pwgen). 
-Root password will be displayed, during first run using output similar to this:
+Note that MySQL Root password will be displayed, during first run using output similar to this:
 ```
 [i] MySQL root Password: XXXXXXXXXXXXXXX
 ```
@@ -37,7 +36,4 @@ Typical usage:
 docker run -it -v /host/dir/for/db:/var/lib/mysql -e MYSQL_DATABASE=db -e MYSQL_USER=user -e MYSQL_PASSWORD=blah k0st/alpine-mariadb
 ```
 
-### Todo
-- [ ] Check volume and data
-- [ ] Provide more examples
 
