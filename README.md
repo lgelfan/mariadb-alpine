@@ -1,4 +1,4 @@
-# alpine-mariadb
+# mariadb-alpine
 
 ## (FORKED FROM: k0st/alpine-mariadb)
 
