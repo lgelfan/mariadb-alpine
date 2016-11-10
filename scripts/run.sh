@@ -25,8 +25,7 @@ else
 	mysql_install_db --user=mysql > /dev/null
 
 	if [ "$MYSQL_ROOT_PASSWORD" = "" ]; then
-#		MYSQL_ROOT_PASSWORD=`pwgen 16 1`
-		MYSQL_ROOT_PASSWORD="mariapass"
+		MYSQL_ROOT_PASSWORD=`pwgen 16 1`
 		echo "[i] MySQL root Password: $MYSQL_ROOT_PASSWORD"
 	fi
 
